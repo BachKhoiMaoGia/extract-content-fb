@@ -1,0 +1,71 @@
+Phân tích file JSON Content-fb-TuanLe.json
+Tổng quan về file
+Kích thước: 122MB (rất lớn)
+Số dòng: 2,205,873 dòng
+Định dạng: JSON structured data chứa dữ liệu Facebook posts
+Cấu trúc dữ liệu chính
+1. Metadata cấp cao nhất:
+2. Thông tin fanpage:
+ID fanpage: 100045974944732
+Tên: Tuan Le (baonam.kimchi)
+Thời gian scan: Từ 06:31:29 đến 07:44:00 ngày 16/06/2025
+Tổng số bài post được xử lý: 1,349 bài
+3. Cấu trúc mỗi bài post:
+Mỗi bài post có cấu trúc phức tạp với các trường chính:
+
+Metadata bài post:
+
+__typename: "Story"
+strong_id__: ID duy nhất
+creation_time: Timestamp (Unix format)
+post_id: ID bài post
+url: Link đến bài post trên Facebook
+Nội dung bài post:
+
+message.text: Nội dung chính của bài viết
+message.ranges: Định dạng text
+privacy_label: "Công khai"
+Thông tin tác giả:
+
+actors: Thông tin về người đăng
+name: "Tuan Le"
+profile_picture: Ảnh đại diện
+gender: "MALE"
+4. Phân tích nội dung
+Chủ đề chính của các bài post:
+Từ các mẫu nội dung đã phân tích, fanpage này chủ yếu chia sẻ về:
+
+Khởi nghiệp & Kinh doanh:
+
+Chia sẻ kinh nghiệm khởi nghiệp
+Các khủng hoảng trong kinh doanh
+Tư duy và triết lý kinh doanh
+Trải nghiệm cá nhân:
+
+Nhận xét về cuộc sống, cafe, địa điểm
+Chia sẻ về thành công và thất bại
+Các bài học rút ra từ kinh doanh
+Phong cách viết:
+Tiếng Việt thông tục, gần gũi
+Sử dụng từ viết tắt (ae, dc, ko)
+Chia sẻ kinh nghiệm thực tế
+Có tính tương tác cao với người đọc
+5. Thống kê kỹ thuật
+Số lượng Story posts: 2,819 bài
+Số lượng text fields: 23,074 trường
+Timeline: Các bài post có timestamp từ khoảng 1749716970 đến 1749990140 (tháng 6/2025)
+6. Mục đích sử dụng
+File JSON này có vẻ là kết quả của việc:
+
+Crawl/scrape dữ liệu từ Facebook fanpage
+Lưu trữ toàn bộ nội dung posts để phân tích
+Có thể dùng cho mục đích:
+Phân tích nội dung marketing
+Nghiên cứu xu hướng
+Backup dữ liệu
+Xây dựng dataset cho AI/ML
+7. Đánh giá chất lượng dữ liệu
+Ưu điểm: Dữ liệu rất chi tiết, có đầy đủ metadata
+Nhược điểm: File quá lớn (122MB), khó xử lý trực tiếp
+Đề xuất: Nên tách thành các file nhỏ hơn hoặc import vào database để xử lý hiệu quả
+File này là một nguồn dữ liệu giá trị cho việc phân tích nội dung social media, đặc biệt là trong lĩnh vực khởi nghiệp và kinh doanh tại Việt Nam.

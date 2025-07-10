@@ -1,0 +1,6 @@
+# Không cần thêm package nào vì script chỉ sử dụng standard library
+# Python 3.6+ required
+
+# Optional packages for enhanced functionality:
+# chardet>=3.0.4  # for better encoding detection
+# tqdm>=4.0.0     # for progress bars
